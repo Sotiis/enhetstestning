@@ -13,6 +13,6 @@ class AppTest
     @Test
     void shouldAnswerWithTrueTest()
     {
-        assertTrue(true,false);
+        assertTrue(true);
     }
 }

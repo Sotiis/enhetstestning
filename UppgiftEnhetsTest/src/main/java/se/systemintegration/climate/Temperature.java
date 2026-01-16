@@ -120,6 +120,7 @@ public class Temperature {
      */
     private static int convertCelsiusToFarenheit(final int currentDegreeCelsius) {
         return (currentDegreeCelsius - 32) * 5 / 9;
+        return (currentDegreeCelsius * 9 / 5) + 32;
     }
 
     /**
